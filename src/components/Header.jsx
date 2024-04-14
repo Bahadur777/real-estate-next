@@ -16,9 +16,9 @@ const Header = () => {
         <div className='flex  items-center gap-5'>
             <Link href={'/'}><Image src={'/images/logo.svg'} width={150} height={150}></Image></Link>
             <ul className='flex gap-5'>
-                <Link href={'/'}>For sell</Link>
-                <Link href={'/ForRent'}>For rent</Link>
-                <Link href={'/Agent'}>Agent Finder</Link>
+                <Link href={'/ForSell'} className='hover:text-red-500 hover:font-bold'>For sell</Link>
+                <Link href={'/Rent'} className='hover:text-red-500 hover:font-bold'>For rent</Link>
+                <Link href={'/Agent'} className='hover:text-red-500 hover:font-bold }'>Agent Finder</Link>
             </ul>
         </div>
         <div className='flex gap-2'>
